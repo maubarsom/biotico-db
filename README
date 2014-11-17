@@ -1,0 +1,14 @@
+Database folder structure for
+
+The following file contains scripts to download all the database files required for
+the viral discovery pipeline to work.
+
+Required executables in PATH:
+	1. wget
+	2. tar and gunzip
+	3. GNU sed
+	4. bwa (for GRCh38 index building)
+	5. stampy.py (for GRCh38 index building)
+	6. makeblastdb (blast+ ; for Refseq Viral blastdb building)
+	7. hmmpress (HMMER suite: http://hmmer.janelia.org/ ; for Pfam and vFam  .hmm databases )
+	8. kraken-build (from Kraken software: https://ccb.jhu.edu/software/kraken/ )
